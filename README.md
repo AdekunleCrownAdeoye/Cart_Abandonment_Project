@@ -14,6 +14,7 @@
 - [References](#references)
 
 ### Project Overview
+---
 
 A data analysis project utilizing SQL Server and Power BI revealed that the company's lower abandonment rate compared to industry standards is primarily attributed to its optimized mobile checkout process. The analysis identified mobile optimization as a significant factor in reducing cart abandonment. Additionally, the project highlighted the need for targeted marketing strategies for specific product categories and potential improvements in shipping policies to address abandonment concerns.
 
@@ -23,16 +24,19 @@ A data analysis project utilizing SQL Server and Power BI revealed that the comp
 
 
 ### Data Source
+---
 
 Cart Abandonment: The primary dataset used for this analysis is the "Abandonment_dataset.csv" file, containing detailed information about each cart order made by Magicmade.
 
 ### Tools
+---
 
 - Excel | data cleaning
 - SQL Server | data analysis
 - Power BI | creating report & dashboard
 
 ### Data Cleaning and Preparation
+---
 
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and Inspection.
@@ -40,6 +44,7 @@ In the initial data preparation phase, I performed the following tasks:
 3. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
+---
 
 EDA involves exploring the data to answer key questions such as:
 1. User Behavior:
@@ -51,7 +56,7 @@ EDA involves exploring the data to answer key questions such as:
 - What steps can be taken to simplify the checkout process and address common pain points?
 - How can the website provide more transparency in pricing and shipping costs?
 3. Marketing Strategies:
-- What targeted marketing strategies can be implemented to address abandonment for specific product categories?
+- What targeted marketing strategies can address abandonment for specific product categories?
 - How can social media be leveraged more effectively to retarget abandoned carts?
 - What other marketing channels or tactics could be explored to improve conversions?
 4. Operational Efficiency:
@@ -60,6 +65,7 @@ EDA involves exploring the data to answer key questions such as:
 - What changes can be made to the "Expedited Rules" system to ensure more efficient deliveries?
 
 ### Data Analysis
+---
 
 ```SQL
 --View Data
@@ -195,6 +201,7 @@ ORDER BY Number DESC;
 ```
 
 ### Result and Findings
+---
 
 The analysis results are as follows:
 1.	The company's abandonment rate is lower than the industry standard rate with a difference of 22.2%.
@@ -209,6 +216,8 @@ The analysis results are as follows:
 10.	items such as sunglasses, wristwatches, and tablets are among the top categories for abandoned purchases
 
 ### Recommendations
+---
+
 1.	Optimize for Mobile: Since most users abandon carts on mobile, optimizing the checkout process for mobile devices could reduce abandonment rates
 2.	Simplify Checkout: Offering a guest checkout option and simplifying the checkout process could address the two top reasons for abandonment.
 3.	Transparency in Pricing: Displaying total costs upfront, including shipping, could reduce abandonment due to no total order cost upfront
@@ -217,10 +226,12 @@ The analysis results are as follows:
 6.	Address Shipping Costs: Offering free shipping thresholds or flat-rate shipping could mitigate abandonment due to shipping costs.
 
 ### Limitations
+---
 
 I had to create a range for session duration to help me categorize the session duration by Cart_Status.
 
 ### References
+---
 
 - [Amdari](https://www.amdari.io)
 
