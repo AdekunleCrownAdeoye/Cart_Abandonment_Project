@@ -17,6 +17,11 @@
 
 A data analysis project utilizing SQL Server and Power BI revealed that the company's lower abandonment rate compared to industry standards is primarily attributed to its optimized mobile checkout process. The analysis identified mobile optimization as a significant factor in reducing cart abandonment. Additionally, the project highlighted the need for targeted marketing strategies for specific product categories and potential improvements in shipping policies to address abandonment concerns.
 
+![Report](https://github.com/user-attachments/assets/bf5911f2-8d29-42e1-8036-7b83a4a1ff3b)
+
+![Dashboard ](https://github.com/user-attachments/assets/1d0c6814-63c8-4ca5-bf4b-ce00c49e4556)
+
+
 ### Data Source
 
 Cart Abandonment: The primary dataset used for this analysis is the "Abandonment_dataset.csv" file, containing detailed information about each cart order made by Magicmade.
